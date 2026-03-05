@@ -1,0 +1,34 @@
+Do not work directly on main.
+
++Create a feature branch, moving working directory to new branch:
+
+in console
+
+git checkout -b feature/initial-setup
+initial-setup = name of branch
+
+
++Make changes locally
+
+notepad README.md
+mkdir src
+mkdir tests
+
+
+Check changes:
+
+git status
+
++Commint changes
+
+git add .
+git commit -m "Initial local setup"
+
+
++Push 
+
+git push -u origin feature/initial-setup
+
+
+
+
