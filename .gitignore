@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Conda / environments
+env/
+venv/
+.venv/
+conda-meta/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Large scientific data
+*.npy
+*.npz
+*.mat
+*.tif
+
+# Optional local data folder
+ccf/
+data/
